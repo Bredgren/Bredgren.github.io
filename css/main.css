@@ -207,6 +207,10 @@ a.project-link:hover {
     float: left;
 }
 
+.project-list li:hover {
+    border: 1px solid #888;
+}
+
 .project-links a {
     color: #00a;
     text-decoration: none;

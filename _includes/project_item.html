@@ -7,8 +7,12 @@
   <div class="project-item">
     <a class="project-link" href="{{ include.proj.page }}"><h2>{{ include.proj.name }}</h2></a>
     <span class="project-links">
-      <a href="{{ include.proj.source }}">source</a> |
+      {% if {{include.proj.src}} %}
+      <a href="{{ include.proj.src }}">source</a> |
+      {% endif %}
+      {% if {{include.proj.play}} %}
       <a href="{{ include.proj.play }}">play</a> |
+      {% endif %}
       <a href="{{ include.proj.page }}">info</a>
     </span>
   </div>

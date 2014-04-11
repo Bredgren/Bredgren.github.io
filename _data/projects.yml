@@ -1,21 +1,38 @@
 ---
 current-projects:
   - name:   Cosmic Combat
-    source: https://github.com/Bredgren/CosmicCombat
+    src:    https://github.com/Bredgren/CosmicCombat
     play:   http://bredgren.github.io/CosmicCombat
     page:   CosmicCombat
     img:
 
   - name:   Ping
-    source: https://github.com/Bredgren/Ping
+    src:    https://github.com/Bredgren/Ping
     play:   http://bredgren.github.io/Ping
     page:   Ping
     img:
 
 past-projects:
   - name:   Celestial Exterminator
-    source: https://github.com/Bredgren/Ping
-    play:   https://github.com/Bredgren/Ping
+    src:    https://github.com/echo99/capstone
+    play:   https://courses.cs.washington.edu/courses/cse481d/13sp/c481d-f/www/game/index.html
     page:   CelestialExterminator
     img:    celestial_exterminator.png
+
+  - name:   Fractals
+    src:    https://github.com/Bredgren/Fractals
+    page:   Fractals
+    img:    fractals.png
+
+  - name:   Ninja Runner
+    src:    https://github.com/Bredgren/Ninja-Runner
+    page:   NinjaRunner
+    img:    ninja_runner.png
+
+  - name:   OmniTank
+    src:    https://github.com/Bredgren/OmniTank-Original
+    page:   OmniTank
+    img:    omnitank.png
+
+
 ...

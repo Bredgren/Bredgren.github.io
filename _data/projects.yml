@@ -1,0 +1,21 @@
+---
+current-projects:
+  - name:   Cosmic Combat
+    source: https://github.com/Bredgren/CosmicCombat
+    play:   http://bredgren.github.io/CosmicCombat
+    page:   CosmicCombat
+    img:
+
+  - name:   Ping
+    source: https://github.com/Bredgren/Ping
+    play:   http://bredgren.github.io/Ping
+    page:   Ping
+    img:
+
+past-projects:
+  - name:   Celestial Exterminator
+    source: https://github.com/Bredgren/Ping
+    play:   https://github.com/Bredgren/Ping
+    page:   CelestialExterminator
+    img:    celestial_exterminator.png
+...

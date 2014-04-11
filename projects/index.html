@@ -1,0 +1,24 @@
+---
+layout: default
+project_template: project_item.html
+---
+
+<div id="project-container">
+  <div class="project-list-div">
+    <h1>Current Projects</h1>
+    <ul class="project-list">
+      {% for project in site.data.projects.current-projects %}
+      {% include {{page.project_template}} proj=project %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="project-list-div">
+    <h1>Past Projects</h1>
+    <ul class="project-list">
+      {% for project in site.data.projects.past-projects %}
+      {% include {{page.project_template}} proj=project %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

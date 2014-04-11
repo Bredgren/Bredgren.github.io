@@ -1,0 +1,16 @@
+<li>
+  {% if {{include.proj.img %}
+  <a href="{{ include.proj.page }}">
+    <img src="/assets/{{ include.proj.img }}" alt="project image" width="64" height="64">
+  </a>
+  {% endif %}
+  <div class="project-item">
+    <a class="project-link" href="{{ include.proj.page }}"><h2>{{ include.proj.name }}</h2></a>
+    <span class="project-links">
+      <a href="{{ include.proj.source }}">source</a> |
+      <a href="{{ include.proj.play }}">play</a> |
+      <a href="{{ include.proj.page }}">info</a>
+    </span>
+  </div>
+  <div class="clear"></div>
+</li>

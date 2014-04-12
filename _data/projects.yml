@@ -29,6 +29,7 @@ all-projects:
     name:   Cosmic Combat
     src:    https://github.com/Bredgren/CosmicCombat
     play:   http://bredgren.github.io/CosmicCombat
+    watch:  https://www.youtube.com/playlist?list=PLqEImp3lhrWxz77dF1AqCycgZ6QuWVPCa
     page:   CosmicCombat
     img:
 

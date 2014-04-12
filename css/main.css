@@ -240,7 +240,7 @@ ul.link-list > li:before {
     content: "|"
 }
 
-ul.link-list > li.first:before {
+ul.link-list > li:first-child:before {
     content: " "
 }
 

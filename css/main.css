@@ -178,14 +178,30 @@ div.project-list-div h1 {
 
 ul.project-list {
     list-style: none;
-    border: 1px black solid;
+    border: 1px #aaa solid;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
 }
 
 ul.project-list > li {
-    padding: 5px;
+    padding: 10px 5px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #999;
+}
+
+.project-list > li:first-child {
+    padding-top: 5px;
+    border-top-style: none;
+}
+
+.project-list > li:last-child {
+    padding-bottom: 5px;
+    border-bottom-style: none;
+}
+
+.project-list img {
+    float: left;
 }
 
 .project-item {
@@ -208,14 +224,6 @@ a.project-link h2:hover {
 
 a.project-link:hover {
     color: #000;
-}
-
-.project-list img {
-    float: left;
-}
-
-.project-list > li:hover {
-    border: 1px solid #888;
 }
 
 .project-links a {

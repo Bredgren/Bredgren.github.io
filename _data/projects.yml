@@ -1,38 +1,52 @@
 ---
-current-projects:
-  - name:   Cosmic Combat
-    src:    https://github.com/Bredgren/CosmicCombat
-    play:   http://bredgren.github.io/CosmicCombat
-    page:   CosmicCombat
-    img:
+all-projects:
+  OmniTank: &id001
+    name:   OmniTank
+    src:    https://github.com/Bredgren/OmniTank-Original
+    page:   OmniTank
+    img:    omnitank.png
 
-  - name:   Ping
-    src:    https://github.com/Bredgren/Ping
-    play:   http://bredgren.github.io/Ping
-    page:   Ping
-    img:
+  NinjaRunner: &id002
+    name:   Ninja Runner
+    src:    https://github.com/Bredgren/Ninja-Runner
+    page:   NinjaRunner
+    img:    ninja_runner.png
 
-past-projects:
-  - name:   Celestial Exterminator
+  Fractals: &id003
+    name:   Fractals
+    src:    https://github.com/Bredgren/Fractals
+    page:   Fractals
+    img:    fractals.png
+
+  CelestialExterminator: &id004
+    name:   Celestial Exterminator
     src:    https://github.com/echo99/capstone
     play:   https://courses.cs.washington.edu/courses/cse481d/13sp/c481d-f/www/game/index.html
     page:   CelestialExterminator
     img:    celestial_exterminator.png
 
-  - name:   Fractals
-    src:    https://github.com/Bredgren/Fractals
-    page:   Fractals
-    img:    fractals.png
+  CosmicCombat: &id005
+    name:   Cosmic Combat
+    src:    https://github.com/Bredgren/CosmicCombat
+    play:   http://bredgren.github.io/CosmicCombat
+    page:   CosmicCombat
+    img:
 
-  - name:   Ninja Runner
-    src:    https://github.com/Bredgren/Ninja-Runner
-    page:   NinjaRunner
-    img:    ninja_runner.png
+  Ping: &id006
+    name:   Ping
+    src:    https://github.com/Bredgren/Ping
+    play:   http://bredgren.github.io/Ping
+    watch:  https://www.youtube.com/playlist?list=PLqEImp3lhrWxj5yHccIWq0O74bZJTgBOu
+    page:   Ping
+    img:
 
-  - name:   OmniTank
-    src:    https://github.com/Bredgren/OmniTank-Original
-    page:   OmniTank
-    img:    omnitank.png
+current-projects:
+  - *id005
+  - *id006
 
-
+past-projects:
+  - *id004
+  - *id003
+  - *id002
+  - *id001
 ...

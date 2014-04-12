@@ -1,0 +1,14 @@
+
+<div class="project-links">
+  <ul class="link-list">{% if include.proj.src %}
+    <li class="first">
+      <a href="{{ include.proj.src }}">source</a>
+    </li>{% endif %}{% if include.proj.play %}
+    <li>
+      <a href="{{ include.proj.play }}">play</a>
+    </li>{% endif %}{% if include.proj.watch %}
+    <li>
+      <a href="{{ include.proj.watch }}">watch</a>
+    </li>{% endif %}
+  </ul>
+</span>

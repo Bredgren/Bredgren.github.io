@@ -29,6 +29,8 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+ul { margin-left: 20px; }
+
 /*****************************************************************************/
 /*
 /* Home
@@ -182,7 +184,7 @@ ul.project-list {
     margin: 10px;
 }
 
-ul.project-list li {
+ul.project-list > li {
     padding: 5px;
 }
 
@@ -212,7 +214,7 @@ a.project-link:hover {
     float: left;
 }
 
-.project-list li:hover {
+.project-list > li:hover {
     border: 1px solid #888;
 }
 
@@ -223,6 +225,23 @@ a.project-link:hover {
 
 .project-links a:hover {
     font-weight: bold;
+}
+
+ul.link-list {
+    list-style: none;
+    margin: 0;
+}
+
+ul.link-list > li {
+    display: inline;
+}
+
+ul.link-list > li:before {
+    content: "|"
+}
+
+ul.link-list > li.first:before {
+    content: " "
 }
 
 .clear {

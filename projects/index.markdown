@@ -3,6 +3,8 @@ layout: default
 project_template: project_item.html
 ---
 
+Here you'll find all of my projects I think are worth sharing. With some of the recent projects I've been recording my development and posting them on [youtube](https://www.youtube.com/channel/UCfgnY89MkCnR1Q0p-YpTyXg).
+
 <div id="project-container">
   <div class="project-list-div">
     <h1>Current Projects</h1>

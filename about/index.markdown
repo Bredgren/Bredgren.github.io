@@ -1,6 +1,6 @@
 ---
 layout: default
-project_template: project_item.html
+title: About
 ---
 
 About

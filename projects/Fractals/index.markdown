@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Projects | Fractals
 project_links: project_links.html
 ---
 

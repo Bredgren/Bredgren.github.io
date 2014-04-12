@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Projects | Cosmic Combat
 project_links: project_links.html
 ---
 

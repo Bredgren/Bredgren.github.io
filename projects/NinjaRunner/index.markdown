@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Projects | Ninja Runner
 project_links: project_links.html
 ---
 

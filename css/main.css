@@ -31,6 +31,15 @@ a:visited { color: #00a; }
 
 ul { margin-left: 20px; }
 
+a.insite-link {
+    color: #00a;
+    text-decoration: none;
+}
+
+a.insite-link:hover {
+    font-weight: bold;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -226,14 +235,14 @@ a.project-link:hover {
     color: #000;
 }
 
-.project-links a {
-    color: #00a;
-    text-decoration: none;
-}
+/* .project-links a { */
+/*     color: #00a; */
+/*     text-decoration: none; */
+/* } */
 
-.project-links a:hover {
-    font-weight: bold;
-}
+/* .project-links a:hover { */
+/*     font-weight: bold; */
+/* } */
 
 ul.link-list {
     list-style: none;

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Projects | OmniTank
 project_links: project_links.html
 ---
 

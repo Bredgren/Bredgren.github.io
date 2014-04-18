@@ -8,6 +8,11 @@
     <a class="project-link" href="{{ include.proj.page }}"><h2>{{ include.proj.name }}</h2></a>
     <span class="project-links">
       <ul class="link-list">
+        {% if include.proj.dwnld %}
+        <li>
+          <a class="insite-link" href="/downloads/{{ include.proj.dwnld }}">download</a>
+        </li>
+        {% endif %}
         {% if include.proj.play %}
         <li>
           <a class="insite-link" href="{{ include.proj.play }}">play</a>

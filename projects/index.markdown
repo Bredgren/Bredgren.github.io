@@ -4,7 +4,7 @@ title: Projects
 project_item: project_item.html
 ---
 
-Here you'll find all of my projects I think are worth sharing. With some of the recent projects I've been recording my development and posting them on [youtube](https://www.youtube.com/channel/UCfgnY89MkCnR1Q0p-YpTyXg).
+Here you'll find all of my projects I think are worth sharing. With some of the recent projects I've been recording my development and posting them on [youtube](https://www.youtube.com/channel/UCfgnY89MkCnR1Q0p-YpTyXg) just for fun.
 
 <div id="project-container">
   <div class="project-list-div">

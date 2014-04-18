@@ -12,20 +12,27 @@ all-projects:
     page:   NinjaRunner
     img:    ninja_runner.png
 
-  Fractals: &id003
-    name:   Fractals
-    src:    https://github.com/Bredgren/Fractals
-    page:   Fractals
-    img:    fractals.png
-
-  CelestialExterminator: &id004
+  CelestialExterminator: &id003
     name:   Celestial Exterminator
     src:    https://github.com/echo99/capstone
     play:   https://courses.cs.washington.edu/courses/cse481d/13sp/c481d-f/www/game/index.html
     page:   CelestialExterminator
     img:    celestial_exterminator.png
 
-  CosmicCombat: &id005
+  Fractals: &id004
+    name:   Fractals
+    src:    https://github.com/Bredgren/Fractals
+    page:   Fractals
+    img:    fractals.png
+
+  SquareInvaders: &id005
+    name:   Square Invaders
+    src:    https://github.com/Bredgren/SquareInvaders
+    dwnld:  SquareInvaders.zip
+    page:   SquareInvaders
+    img:    square_invaders.png
+
+  CosmicCombat: &id006
     name:   Cosmic Combat
     src:    https://github.com/Bredgren/CosmicCombat
     play:   http://bredgren.github.io/CosmicCombat
@@ -33,7 +40,7 @@ all-projects:
     page:   CosmicCombat
     img:
 
-  Ping: &id006
+  Ping: &id007
     name:   Ping
     src:    https://github.com/Bredgren/Ping
     play:   http://bredgren.github.io/Ping
@@ -42,10 +49,11 @@ all-projects:
     img:
 
 current-projects:
-  - *id005
   - *id006
+  - *id007
 
 past-projects:
+  - *id005
   - *id004
   - *id003
   - *id002

@@ -1,6 +1,9 @@
 
 <div class="project-links">
-  <ul class="link-list">{% if include.proj.play %}
+  <ul class="link-list">{% if include.proj.dwnld%}
+    <li>
+      <a class="insite-link" href="/downloads/{{ include.proj.dwnld }}">download</a>
+    </li>{% endif %}{% if include.proj.play %}
     <li>
       <a class="insite-link" href="{{ include.proj.play }}">play</a>
     </li>{% endif %}{% if include.proj.watch %}

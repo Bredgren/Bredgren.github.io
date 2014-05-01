@@ -4,7 +4,7 @@ title: Projects | Square Invaders
 project_links: project_links.html
 ---
 
-Square Invaders
+Square Invaders - {{site.data.projects.all-projects.SquareInvaders.year}}
 ===============
 {% include {{page.project_links}} proj=site.data.projects.all-projects.SquareInvaders %}
 

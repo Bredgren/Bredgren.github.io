@@ -4,7 +4,7 @@ title: Projects | Cosmic Combat
 project_links: project_links.html
 ---
 
-Cosmic Combat
+Cosmic Combat - {{site.data.projects.all-projects.CosmicCombat.year}}
 =============
 {% include {{page.project_links}} proj=site.data.projects.all-projects.CosmicCombat %}
 This is a game that I've been slowly designing as time permitted since the summer of 2012. I finally had enough figured out and enough time to start implementing it in March of 2014. My intention is for this game to be an adventure game of sorts, with a fighting system inspired by Dragon Ball Z and a few other elements inspired by NetHack.

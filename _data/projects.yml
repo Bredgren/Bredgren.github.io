@@ -2,18 +2,21 @@
 all-projects:
   OmniTank: &id001
     name:   OmniTank
+    year:   2010
     src:    https://github.com/Bredgren/OmniTank-Original
     page:   OmniTank
     img:    omnitank.png
 
   NinjaRunner: &id002
     name:   Ninja Runner
+    year:   2010
     src:    https://github.com/Bredgren/Ninja-Runner
     page:   NinjaRunner
     img:    ninja_runner.png
 
   CelestialExterminator: &id003
     name:   Celestial Exterminator
+    year:   2013
     src:    https://github.com/echo99/capstone
     play:   https://courses.cs.washington.edu/courses/cse481d/13sp/c481d-f/www/game/index.html
     page:   CelestialExterminator
@@ -21,12 +24,14 @@ all-projects:
 
   Fractals: &id004
     name:   Fractals
+    year:   2013
     src:    https://github.com/Bredgren/Fractals
     page:   Fractals
     img:    fractals.png
 
   SquareInvaders: &id005
     name:   Square Invaders
+    year:   2014
     src:    https://github.com/Bredgren/SquareInvaders
     dwnld:  SquareInvaders.zip
     page:   SquareInvaders
@@ -34,6 +39,7 @@ all-projects:
 
   CosmicCombat: &id006
     name:   Cosmic Combat
+    year:   current
     src:    https://github.com/Bredgren/CosmicCombat
     play:   http://bredgren.github.io/CosmicCombat
     watch:  https://www.youtube.com/playlist?list=PLqEImp3lhrWxz77dF1AqCycgZ6QuWVPCa
@@ -42,6 +48,7 @@ all-projects:
 
   Ping: &id007
     name:   Ping
+    year:   2014
     src:    https://github.com/Bredgren/Ping
     play:   http://bredgren.github.io/Ping
     watch:  https://www.youtube.com/playlist?list=PLqEImp3lhrWxj5yHccIWq0O74bZJTgBOu

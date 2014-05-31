@@ -55,10 +55,27 @@ all-projects:
     page:   Ping
     img:    ping.png
 
+  ZeroDegreeC: &id008
+    name:   ZeroDegreeC
+    year:   2014
+    src:    https://github.com/Bredgren/ZeroDegreeC
+    play:   http://bredgren.github.io/ZeroDegreeC
+    page:   ZeroDegreeC
+
+  Placeless: &id009
+    name:   Placeless
+    year:   2014
+    src:    https://github.com/Bredgren/Placeless
+    play:   http://bredgren.github.io/Placeless
+    page:   Placeless
+    img:    placeless.png
+
 current-projects:
+  - *id008
   - *id006
 
 past-projects:
+  - *id009
   - *id007
   - *id005
   - *id004

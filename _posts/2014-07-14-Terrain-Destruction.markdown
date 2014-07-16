@@ -9,7 +9,7 @@ I just spent the past weekend working on a prototype for terrain destruction. It
 
 Then, last week, by random chance I started thinking about terrain destruction from a new perspective. I was reminded of the python library curses, which basically lets you display things in a terminal however you want. I don't remember why but for some reason I decided I wanted to make destructible terrain and use curses to display it, just for fun. This got me thinking of terrain as made up of cells laid out in on a grid, where I would have a collection of which cells made of the terrain and I would just have to figure out how to connect them. It's hard to remember the train of thought exactly, but eventually I had come up with an algorithm that I wanted to try out. And curses was no longer going to cut it so I switched to my preferred method of prototyping: pygame.
 
-The algorithm is relatively simple, it's less than 300 lines and can be seen in its entirety below (minus the good comments, sorry). Actually if I remove everything except the algorithm itself then it's less than 200 lines. And it could also be made even simpler by removing support for nested loops, which I don't anticipate my game needing.
+The algorithm is relatively simple, it's less than 300 lines and can be seen in its entirety below, minus the good comments. (I can be lazy about that when working quickly on prototypes, sorry.) Actually if I remove everything except the algorithm itself then it's less than 200 lines. And it could also be made even simpler by removing support for nested loops, which I don't anticipate my game needing.
 
 At a high level this is what it's doing (if we're not allowing nested loops):
 

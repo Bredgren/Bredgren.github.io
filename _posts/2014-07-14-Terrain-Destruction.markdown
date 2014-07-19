@@ -2,7 +2,7 @@
 layout: post
 title:  "Terrain Destruction"
 date:   2014-07-14 22:00:00
-categories: update, games
+categories: update games
 ---
 
 I just spent the past weekend working on a prototype for terrain destruction. It's something I would very much like to have in my game Cosmic Combat. I attempted to implement terrain destruction by clipping polygons and then converting them to triangles for a physics engine to use. I almost got it working but the library I used for converting to triangles did not do so in a desirable fashion. Also, getting three third party libraries to work together was a bit messy. And so I took another long break from that project to work on other stuff.

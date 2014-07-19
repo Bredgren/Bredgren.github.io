@@ -1,4 +1,4 @@
 name: Brandon Edgren
 markdown: redcarpet
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 pygments: true

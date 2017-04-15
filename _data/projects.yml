@@ -51,7 +51,7 @@ all-projects:
     year:   2014
     src:    https://github.com/Bredgren/Ping
     play:   http://bredgren.github.io/Ping
-    watch:  https://www.youtube.com/playlist?list=PLqEImp3lhrWxj5yHccIWq0O74bZJTgBOu
+    vid:    https://www.youtube.com/playlist?list=PLqEImp3lhrWxj5yHccIWq0O74bZJTgBOu
     page:   Ping
     img:    ping.png
 
@@ -70,11 +70,19 @@ all-projects:
     page:   Placeless
     img:    placeless.png
 
-current-projects:
+  Set: &id010
+    name:   Set
+    year:   2017
+    play:   http://bredgren.github.io/Set
+    page:   Set
+    img:    set.png
+
+abandoned-projects:
   - *id008
   - *id006
 
-past-projects:
+completed-projects:
+  - *id010
   - *id009
   - *id007
   - *id005

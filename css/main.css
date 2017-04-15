@@ -40,6 +40,31 @@ a.insite-link:hover {
     font-weight: bold;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+table.tableh th {
+    padding: 2px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+table.tablev th {
+    padding: 3px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
 /*****************************************************************************/
 /*
 /* Home

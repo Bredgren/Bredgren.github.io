@@ -1,4 +1,4 @@
 name: Brandon Edgren
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-pygments: true
+highlighter: rouge

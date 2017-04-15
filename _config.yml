@@ -1,4 +1,4 @@
 name: Brandon Edgren
-markdown: redcarpet
+markdown: kramdown
 permalink: /:year/:month/:day/:title/
 pygments: true
